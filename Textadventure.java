@@ -38,17 +38,17 @@ public class Textadventure extends Application {
         naechsterAbschnitt = new int[abenteuerlaenge][2];
 
         // 0: Startpunkt
-        abschnitte[0] = "Du erwachst. Es ist kalt und du hast einen Kater. Es riecht ein wenig muffig.";
-        beschriftungen[0][0] = "Du siehst dich um.";
+        abschnitte[0] = "Das erste was du wahrnimmst ist der rostige und modrige Geruch in der Luft. Dein Kopf brummt und du öffnest deine Augen nur schwerfällig.  ";
+        beschriftungen[0][0] = "In dem halb dunkeln versuchst du eine Umgebung wahrzunehmen.";
         naechsterAbschnitt[0][0] = 1;
-        beschriftungen[0][1] = "Du stehst auf.";
+        beschriftungen[0][1] = "Du versuchst aufzustehen um dich zu sammeln.";
         naechsterAbschnitt[0][1] = 2;
 
         // 1: Umsehen nach erfwachen
-        abschnitte[1] = "Ich glaub, du stehst im Wald... nein, vielmehr liegst du im Wald. Muss eine üble Party gewesen sein.";
-        beschriftungen[1][0] = "Du stehst auf.";
+        abschnitte[1] = "Du scheinst in einer Art von Keller zu sein, siehst aber keine Fenster nur hier und da eine Fackel an der Wand. Wie bist du nur hergekommen fragst du dich?";
+        beschriftungen[1][0] = "Du siehst auf den Boden und erst da erkennst du woher der üble Geruch herkommt.";
         naechsterAbschnitt[1][0] = 2;
-        beschriftungen[1][1] = "Du schläfst lieber nochmal ne Runde.";
+        beschriftungen[1][1] = ".";
         naechsterAbschnitt[1][1] = 0;
 
         // 2: Aufstehen
